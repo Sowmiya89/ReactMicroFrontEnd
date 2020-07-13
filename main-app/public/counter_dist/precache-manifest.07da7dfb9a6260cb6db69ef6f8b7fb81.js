@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ca31be234f97a1be4909",
+    "revision": "d8e013ea804ec3515779",
     "url": "/static/css/react-counter.css"
   },
   {
-    "revision": "ca31be234f97a1be4909",
+    "revision": "d8e013ea804ec3515779",
     "url": "/static/js/react-counter.js"
   },
   {

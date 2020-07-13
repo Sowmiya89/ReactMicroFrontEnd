@@ -1,0 +1,9 @@
+{
+  "main.css": "/static/css/react-microapp.css",
+  "main.js": "/static/js/react-microapp.js",
+  "main.js.map": "/static/js/react-microapp.js.map",
+  "static/css/react-microapp.css.map": "/static/css/react-microapp.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.92041e0f0e8f29685c17098ca8b13d9b.js": "/precache-manifest.92041e0f0e8f29685c17098ca8b13d9b.js",
+  "service-worker.js": "/service-worker.js"
+}

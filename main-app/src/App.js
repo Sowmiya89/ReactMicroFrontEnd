@@ -1,45 +1,40 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
-  state = { showCounter: false }
+  state = { showCounter: false};
 
-  componentDidMount(){
+  /*  componentDidMount(){
     window.ReactCounter.mount();
-  }
- /* componentDidUpdate(prevProps, prevState) {
-    const { showCounter } = this.state;
+  } */
+  componentDidUpdate(prevProps, prevState) {
+    const { showCounter} = this.state;
     if (prevState.showCounter !== showCounter) {
-      if(showCounter){
+      if (showCounter) {
         window.ReactCounter.mount();
-      } else{
-        window.ReactCounter.unmount();
+      }else {
+        window.ReactMicroApp.mount();
       }
     }
-  } */
+  }
 
   toggleCounter = () => {
-      this.setState(({ showCounter }) => {
-          return { showCounter: !showCounter }
-      })
-  }
+     this.setState(({ showCounter }) => {
+      return { showCounter: !showCounter };
+    }); 
+  };
+
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img 
-            onClick={this.toggleCounter} 
-            src={logo} 
-            className="App-logo" 
-            alt="logo" 
-          />
-          <div id="counter-app"></div>
-          <p>
-            This is the main App. 
-          </p>
-        </header>
+        <h1>Welcome to Main Application</h1>
+        <div className ="button">
+          <button onClick={this.toggleCounter}>Counter App</button>
+          <button onClick={this.toggleCounter}>MicroApp</button>
+          </div>
+        <div id="counter-app" />
+          <div id="micro-app" />
       </div>
     );
   }

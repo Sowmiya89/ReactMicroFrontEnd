@@ -15,7 +15,7 @@ window.ReactCounter = {
         const el = document.getElementById('counter-app');
         ReactDOM.unmountComponentAtNode(el);
     }
-}
+} 
 
 /* uncomment this block to "defer" ReactDOM.render and expose it globaly
 window.ReactCounter = {
