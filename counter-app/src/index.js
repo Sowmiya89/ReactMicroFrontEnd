@@ -7,9 +7,9 @@ import Counter from './Counter';
 ReactDOM.render(<Counter />, el);*/
 
 window.ReactCounter = {
-    mount: () => {
+    mount: (props) => {
         const el = document.getElementById('counter-app');
-        ReactDOM.render(<Counter />, el);
+        ReactDOM.render(<Counter {...props}/>, el);
     },
     unmount: () => {
         const el = document.getElementById('counter-app');
