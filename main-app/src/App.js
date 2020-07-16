@@ -43,18 +43,21 @@ class App extends Component {
     const { title,currentCount } = this.state;
     return (
       <div className="App">
-        <h1>Welcome to Main Application</h1>
-        <div className="button">
-          <button onClick={this.toggleCounter}>Counter App</button>
-          <button onClick={this.toggleCounter}>MicroApp</button>
+        <div className="Apptitle">
+          Welcome to Main Application 
         </div>
-       
-        <input value={title} onChange={this.onTitleChange} />
-        <div id="counter-app" />
-        <div id="micro-app" />
-        <div>{`The count is ${currentCount}`}</div>
+        <input className="titlechange" value={title} onChange={this.onTitleChange} />
+        <div className="counttotal">{`The count is ${currentCount}`}</div>
+        <div className="button">
+            <button className="button-top" onClick={this.toggleCounter}>Counter App</button>
+            <button className="button-bottom" onClick={this.toggleCounter}>MicroApp</button>      
+        </div>
+        
+        <div id="counter-app" className="counterApp"/>
+        <div id="micro-app" className="microApp"/>
+        
       </div>
-    );
+    )
   }
 }
 

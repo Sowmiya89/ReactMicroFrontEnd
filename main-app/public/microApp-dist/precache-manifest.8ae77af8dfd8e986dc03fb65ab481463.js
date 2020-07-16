@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "f386d3297bb5864a8f84",
+    "revision": "2d9bb5817e399277a2a6",
     "url": "/static/css/react-microapp.css"
   },
   {
-    "revision": "f386d3297bb5864a8f84",
+    "revision": "2d9bb5817e399277a2a6",
     "url": "/static/js/react-microapp.js"
   },
   {

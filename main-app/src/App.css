@@ -1,12 +1,76 @@
 .App {
   text-align: center;
-  
+  width: 100%;
+  height: 100%;
+  margin: 10px 10px 10px 10px;
+}
+.Apptitle {
+  border: 1px solid green;
+  font-size: 26px;
+  background-color: #a08e54;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
 }
 
 .App-logo {
   height: 20vmin;
 }
 
+.button {
+  border: 0px solid black;
+  width: 25%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.button .button-top {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 15px;
+  height: 100px;
+  width: 150px;
+}
+.button .button-top:hover {
+  background-color: #3e8e41;
+}
+.button .button-top:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button .button-bottom {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 15px;
+  height: 100px;
+  width: 150px;
+}
+.button .button-bottom:hover {
+  background-color: #3e8e41;
+}
+.button .button-bottom:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .App-header {
   background-color: #282c34;
   height: 100vh;
@@ -20,6 +84,28 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.counterApp {
+  margin: 15px;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -250px;
+}
+
+.microApp {
+  margin: 15px;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.titlechange {
+  margin: 15px;
 }
 
 
